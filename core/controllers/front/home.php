@@ -1,8 +1,7 @@
 <?php
-/*$theme->appendCss(array('href' => 'http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic'));
-$theme->appendCss('assets/css/test.css');
+$theme->appendCss('assets/libs/css/bootstrap.min.css');
 $theme->appendJs('//code.jquery.com/jquery-1.11.3.min.js');
-$theme->appendJs('assets/js/test.js');*/
+$theme->appendJs('assets/libs/js/bootstrap.min.js');
 //$theme->appendMeta(array('name' => 'description', 'content' => 'My project description'));
 $theme->render();
 ?>
