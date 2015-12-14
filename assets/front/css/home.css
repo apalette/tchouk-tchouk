@@ -1,0 +1,70 @@
+html {
+    position: relative;
+    min-height : 100%;
+    background: #ffffff url('../images/bg.jpg') top center no-repeat;
+	background-size: cover;
+}
+
+body {
+	padding-top: 70px;
+	background-color : transparent;
+    font-family : "Lucida Grande",Arial,sans-serif;
+    color : #666;
+}
+
+.navbar-fixed-top {
+	background-color : transparent;
+	border-bottom : none;
+}
+	.navbar-fixed-top .navbar-brand, 
+	.navbar-fixed-top .navbar-brand:hover, 
+	.navbar-fixed-top .navbar-brand:focus {
+		font-family: 'Indie Flower', cursive;
+		font-size : 36px;
+		color : #ffffff;
+		text-transform : uppercase;
+	}
+	
+.navbar-right .btn {
+    margin: 4px;
+    padding: 15px 25px;
+    line-height: normal;
+	background-color : #efd61d;
+	font-family: 'Indie Flower', cursive;
+	font-size : 20px;
+	color : #666 !important;
+}
+.navbar-right .btn:hover,
+.navbar-right .btn:focus {
+	background-color : #3de43f !important;
+}
+
+.title {
+	margin-top : 40px;
+}
+	
+h1, h2 {
+	font-family: 'Indie Flower', cursive;
+	text-align : center;
+	color : #FFFFFF;
+}
+
+h1 {
+	text-transform : uppercase;
+	font-size : 28px;
+}
+
+h2 {
+	font-size : 22px;
+}
+
+.container {
+    width: auto;
+    padding: 0 15px;
+}
+
+
+.signup-container {
+	max-width : 500px;
+	margin : 20px auto;
+}

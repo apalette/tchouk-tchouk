@@ -6,9 +6,7 @@
     	<?php $this->renderCSS() ?>
     </head>
     <body>
-    	<div class="container">
     	<?php $this->renderView() ?>
-    	</div>
     	<?php $this->renderJS() ?>
     </body>
 </html>
